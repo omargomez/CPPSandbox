@@ -14,11 +14,11 @@ int main() {
   Element trooper1, trooper2, trooper3;
   trooper1.prefix[0] = 'T';
   trooper1.prefix[1] = 'K';
-  trooper1.operating_number = 421;
+  trooper1.operating_number = 2187;
   trooper1.insert_after(&trooper2);
   trooper2.prefix[0] = 'F';
   trooper2.prefix[1] = 'N';
-  trooper2.operating_number = 2187;
+  trooper2.operating_number = 421;
   trooper2.insert_after(&trooper3);
   trooper3.prefix[0] = 'L';
   trooper3.prefix[1] = 'S';
